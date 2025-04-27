@@ -32,4 +32,8 @@ yarn-error.log*
 # Builds e pastas de produção
 dist/
 build/
+<<<<<<< HEAD
 out/
+=======
+out/
+>>>>>>> c75215d6aff1566e9553560f10bec5e0637e8b8d
