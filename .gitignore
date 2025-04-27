@@ -1,13 +1,35 @@
-# Dependências e cache
-node_modules/
+# Banco de dados SQLite
+agendamentos.db
+*.db
+*.sqlite
+*.db-journal
+
+# Pastas de autenticação/cache do WhatsApp Web JS
 .wwebjs_auth/
 .wwebjs_cache/
-wwwbjs.auth/
+wwebjs.auth/
 
 # Arquivos de ambiente
 .env
-agendamentos.db
+.env.local
+.env*.local
 
-# Arquivos do sistema
+# Arquivos do sistema operacional
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Dependências do Node.js
+node_modules/
+
+# Logs e arquivos temporários
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+*.tmp
+
+# Builds e pastas de produção
+dist/
+build/
+out/
